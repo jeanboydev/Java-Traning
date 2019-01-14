@@ -2,6 +2,8 @@ package com.jeanboy.traning;
 
 import com.jeanboy.traning.thread.MyThread;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 public class Test {
 
     public static void main(String[] args) {
@@ -23,5 +25,7 @@ public class Test {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+
     }
 }
